@@ -1,0 +1,41 @@
+Catalogue de démonstration (sujets fictifs)
+
+DEMO 001 : Plateforme web de suivi des enquêtes de satisfaction
+Durée : 6 mois
+Places : 2
+Conception d'une application Angular et Spring Boot avec base PostgreSQL. Les résultats sont restitués dans un tableau de bord Power BI. Déploiement avec Docker et pipeline CI/CD.
+
+DEMO 002 : Assistant de réponse aux appels d'offres par LLM
+Durée : 6 mois
+Places : 1
+Extraction des exigences depuis des documents PDF avec spaCy et un LLM. Mise en place d'un RAG avec LangChain pour proposer des réponses types. API en FastAPI, stockage SQL.
+
+DEMO 003 : Pipeline de données Jira vers tableau de bord
+Durée : 4 à 6 mois
+Places : 2
+Collecte des tickets via API REST en Python, nettoyage, stockage PostgreSQL, orchestration avec Airflow et restitution Power BI. Analyse prédictive des délais de résolution.
+
+DEMO 004 : Classification d'immobilisations par apprentissage automatique
+Durée : 4 à 6 mois
+Places : 1
+Modèles de classification avec TensorFlow et Python. Suivi des expériences avec MLflow dans une démarche MLOps. Démonstration sous Streamlit.
+
+DEMO 005 : Veille commerciale par web scraping
+Durée : 4 mois
+Places : 1
+Collecte automatisée avec Scrapy et Selenium, base centralisée SQL, tableau de bord Streamlit. Planification quotidienne des extractions.
+
+DEMO 006 : Observabilité d'un cluster Kubernetes
+Durée : 5 mois
+Places : 1
+Mise en place de métriques et d'alertes sur un cluster Kubernetes. Automatisation GitOps, conteneurs Docker, scripts Python.
+
+DEMO 007 : Portail fournisseur sur plateforme SAP
+Durée : 6 mois
+Places : 1
+Développement d'un portail web et mobile avec SAP CAP et SAPUI5, services OData, JavaScript.
+
+DEMO 008 : Supervision de capteurs pour l'agriculture connectée
+Durée : 6 mois
+Places : 1
+Acquisition de mesures par des capteurs IoT sur Arduino et STM32, transmission vers un serveur Python, visualisation des données.
