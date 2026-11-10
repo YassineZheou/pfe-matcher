@@ -32,9 +32,8 @@ class LLMTest(unittest.TestCase):
         self.assertEqual(captured["payload"]["messages"][0]["role"], "user")
 
     def test_missing_key_raises(self):
-        with mock.patch.dict(os.environ, {}, clear=True):
-            with self.assertRaises(LLMUnavailable):
-                generate_motivation(self.topic, [], [])
+        with mock.patch.dict(os.environ, {}, clear=True), self.assertRaises(LLMUnavailable):
+            generate_motivation(self.topic, [], [])
 
 
 if __name__ == "__main__":

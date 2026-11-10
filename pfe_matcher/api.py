@@ -1,4 +1,5 @@
 import os
+from typing import Annotated
 
 from fastapi import FastAPI, File, HTTPException, Query, UploadFile
 
@@ -24,7 +25,7 @@ def health():
 
 
 @app.post("/topics")
-async def upload_topics(file: UploadFile = File(...)):
+async def upload_topics(file: Annotated[UploadFile, File()]):
     data = await file.read()
     topics = parse_topics(read_bytes(file.filename or "", data))
     if not topics:
